@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+
+
+    <meta charset="utf-8">
+    <title>Regestration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js" charset="utf-8"></script>
+  </head>
+  <body class="screen">
+    <div class="About">
+
+      <h1>Registration Form</h1>
+
+      <p>Hurrayy! There are exciting offers in kfc</p>
+      <p>Register today! To avvail offers.</p>
+
+    </div>
+
+    <div class="form">
+      <form class="form1" action="" method="post">
+          Name:  <input id="in" type="text" name="Username" value="" placeholder="Enter your name">
+          <br>
+          Email:  <input id="in" type="email" id="emails" name="emails" multiple placeholder="Enter your mail">
+          <br>
+
+          Are you an existing customer?*
+          <br>
+          <input type="radio" id="yes" onclick="display()" name="option" value="y">
+          <label for="yes">Yes</label><br>
+          <input type="radio" id="No" name="option" onclick="hide()" value="n">
+          <label for="no">No</label><br>
+          <br>
+          Your location:
+          <select class="dd" name="cities">
+            <option value="Bng">Bangaloore</option>
+              <option value="Vij">vijayawada</option>
+                <option value="vsp">vizag</option>
+                  <option value="hyd">Hyderabad</option>
+
+          </select>
+          <div id="dis" >
+          <br>
+          <br>
+          Rate our services :
+          <select class="dd" name="services">
+            <option value="Bt">Best</option>
+            <option value="G">Good</option>
+            <option value="A">Average</option>
+            <option value="Ng">Not Good</option>
+            <option value="cs">can't say</option>
+          </select>
+          <br>
+          <br>
+          Rate our Food :
+          <select class="dd" name="services">
+            <option value="D">Delecius</option>
+            <option value="G">Good</option>
+            <option value="A">Average</option>
+            <option value="Ng">Not Good</option>
+            <option value="cs">can't say</option>
+          </select>
+          <br>
+          <br>
+          </div>
+          <br>
+          How often do you visit :
+          <select class="dd" name="services">
+            <option value=""></option>
+            <option value="R">Regularly</option>
+            <option value="W">Weekly</option>
+            <option value="no">Not often</option>
+            <option value="R">Rarely</option>
+          </select>
+
+          <p>Any other things you want to mention</p>
+          <textarea name="subject" rows="5" cols="40"></textarea>
+            <br>
+          <input type="checkbox" name="" value="">I hearby accept all data is right. <br>
+          <input type="checkbox" name="" value="">I am over 16.
+          <br>
+          <button id="button" onclick="validate()">Submit</button>
+
+      </form>
+    </div>
+  </body>
+</html>

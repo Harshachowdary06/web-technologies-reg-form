@@ -1,0 +1,65 @@
+.screen{
+  background-color: grey;
+  margin: auto;
+}
+
+.About{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+.form{
+  margin: auto;
+  width: 500px;
+  height: auto;
+  padding-top: 50px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 2%;
+  font-size: 20px;
+  font-family: monospace;
+}
+.dd{
+  margin-left: 50%;
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 10px;
+
+}
+#in{
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  font-family: monospace;
+  border: none;
+  border-bottom:1px solid black;
+
+}
+#in1{
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  font-family: monospace;
+  border: none;
+  border-bottom:1px solid black;
+
+}
+
+#button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  text-align:center;
+  font-family: monospace;
+  font-size: 15px;
+  background-color: blue;
+  color: white;
+}
+#dis{
+  display: none;
+}
